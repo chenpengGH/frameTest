@@ -1,0 +1,88 @@
+body{
+    margin:0;
+}
+
+.button1{
+    font-size:28px;
+}
+#addUser input{
+    font-size:24px;
+}
+#addUser{
+    border:2px solid;
+    border-radius:0.5em;
+    width:35%;
+    height:330px;
+    float:left;
+    margin-left:400px;
+    margin-top:100px;
+    padding:30px;
+    background-image:url("../images/111.jpg");
+    background-size:cover;
+    font-size:26px;
+}
+#addUser img{
+    width:100%;
+    height:100%;
+}
+#headBack{
+    width:100%;
+    height:80px;
+    background-color:#E0EEF0;
+    position:relative;
+}
+#headDiv{
+    width:75%;
+    height:5px;
+    background:#CBE1E4;
+    float:right;
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+
+#navUl{
+    /*position:relative;*/
+    position:absolute;
+    float:right;
+    top:0;
+    right:0;
+    margin:0;
+    box-sizing:border-box;
+    /*background-color:red;*/
+    width:75%;
+    height:75px;
+}
+
+#navUl li{
+    list-style-type: none;
+    /*position:absolute;*/
+    font-size:36px;
+    display: inline;
+    /**top:20;*/
+    margin-top:20px;
+    left:0;
+    height:auto;
+    text-color:#2F2E2E;
+    /*background-color:#EAE3EA;*/
+    text-align:center;
+    /**padding:5px;
+  margin-top:3px;*/
+}
+
+a:link{
+    text-decoration:none;
+    color:black;
+}
+
+a:visited{
+    color:blue;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:orange;
+}

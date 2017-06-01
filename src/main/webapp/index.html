@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="merchantApp">
+<head>
+    <meta charset="utf-8">
+    <title>交易业务商户服务平台</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/addUser.css">
+    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.js"></script>
+    <script src='http://apps.bdimg.com/libs/angular-ui-router/0.2.15/angular-ui-router.js'></script>
+    <script src='./js/app.js'></script>
+    <script src='./js/addUserCtr.js'></script>
+</head>
+<body>
+<div id="headBack">
+    <img id="rdiv" src="./images/555.jpg" style="width:25%;height:98%;"/>
+    <ul id="navUl">
+        <li ><a href="#">首页</a></li>
+        <li >|</li>
+        <li ><a href="script:;">申告管理</a></li>
+        <li >|</li>
+        <li ><a href="#login">自助服务</a></li>
+        <li >|</li>
+        <li ><a href="#regist">意见管理</a></li>
+        <li >|</li>
+        <li ><a href="#regist">知识库</a></li>
+    </ul>
+    <div id="headDiv">
+
+    </div>
+</div>
+
+<div ui-view="view" style="height: 100%;"></div>
+</body>
+</html>
