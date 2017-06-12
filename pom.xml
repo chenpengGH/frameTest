@@ -13,7 +13,8 @@
             <!-- 以下配置可以保证每次强制更新时jre版本不会变化，那我的eclipse4.4.1，maven3.2.5为例，如果不设置这个，每次强制更新时jre就会变回1.5 -->
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.3.2</version>
+                <!--<version>2.3.2</version>-->
+                <version>3.3</version>
                 <configuration>
                     <source>1.7</source>
                     <target>1.7</target>
@@ -45,6 +46,7 @@
     </build>
     <properties>
         <spring-version>4.0.3.RELEASE</spring-version>
+        <junit-version>4.11</junit-version>
     </properties>
     <!-- 项目基础依赖包配置 -->
     <dependencies>
@@ -123,7 +125,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>${junit-version}</version>
             <scope>test</scope>
         </dependency>
         <!-- json数据库相关依赖 -->
